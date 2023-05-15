@@ -64,8 +64,8 @@ const BookService = () => {
             })
     }
     return (
-        <div>
-            <h2 className="text-3xl text-center font-bold my-4">Book servicce:{title}</h2>
+        <div className="mx-14">
+            <h2 className="text-3xl text-center font-bold my-4">Book service:{title}</h2>
 
             <form onSubmit={handleBookService}>
 
